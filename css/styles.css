@@ -1,0 +1,57 @@
+body {
+    text-align: center;
+    background-color: #393646;
+}
+
+#level-title {
+    font-family: "Press Start 2P", cursive;
+    font-size: 3rem;
+    margin: 5% 0 5% 0;
+    color: #F4EEE0
+}
+
+.btn {
+    border: 5px solid black;
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    margin: 25px;
+    border-radius: 20px;
+}
+
+.container {
+    display: block;
+    margin: auto;
+    width: 50%;
+}
+
+/* Game 4 buttons*/
+#green {
+    background-color: green;
+}
+
+#red {
+    background-color: red;
+
+}
+
+#orange {
+    background-color: orange;
+
+}
+
+#yellow {
+    background-color: yellow;
+
+}
+
+/*After Game Effects*/
+.pressed {
+    box-shadow: 0 0 20px #FFE5CA;
+    background-color: #E74646;
+}
+
+.game-over {
+    background-color: red;
+    opacity: 0.8;
+}
